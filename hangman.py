@@ -87,7 +87,7 @@ guesses = []
 print("Hangman\n")
 print_board(board)
 
-for i in range(len(hangman_word)):
+for i in range(len(hangman_word) - 1):
   blank.append("_")
 
 game = True
