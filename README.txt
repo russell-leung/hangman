@@ -1,11 +1,11 @@
-Problem Statement
+# Problem Statement
 -----------------
 Hangman is a game where a player guesses letters for a random word. The player wins by guessing all of the correct letters. The player loses by running out of tries for entering incorrect letters.
 
 
 
 
-Requirements
+# Requirements
 ------------
 - getting user input: letter
 - get a random word
@@ -16,7 +16,7 @@ Requirements
 
 
 
-Algorithm (Pseudocode)
+# Algorithm (Pseudocode)
 ----------------------
 Program chooses a random word from the text file and displays "_" for each letter in the chosen word. Program prints out the game board before each guess. 
 Program prompts user to input a letter, if the letter is in the randomly chosen word, program will replace the corresonding "_" with the corresponding letter(s).
